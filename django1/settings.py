@@ -27,7 +27,8 @@ SECRET_KEY = 'django-insecure-u^9y@=tc@kvu#x2%_mv&5hjames)cq@^f8bv*pvl3it^6$+zaq
 # debug = False produção
 DEBUG = False
 
-ALLOWED_HOSTS = ['https://django1-low.herokuapp.com/']  # url do dominio
+
+ALLOWED_HOSTS = ['*']  # url do dominio
 
 
 # Application definition
